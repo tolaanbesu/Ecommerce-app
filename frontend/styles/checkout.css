@@ -1,0 +1,239 @@
+/* Checkout.css */
+
+.checkout-page .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.checkout-page .page-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.checkout-page .back-to-cart {
+    text-decoration: none;
+    color: var(--primary-text);
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.checkout-page .checkout-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.checkout-page .form-container {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.checkout-page .section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.checkout-page .form-group {
+    margin-bottom: 20px;
+}
+
+.checkout-page label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.checkout-page input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.checkout-page .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.checkout-page .ssl-text {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #888;
+    display: flex;
+    align-items: center;
+}
+
+.checkout-page .summary-card {
+    flex: 1;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 20px;
+}
+
+.checkout-page .cart-item-summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.checkout-page .product-info {
+    display: flex;
+    align-items: center;
+}
+
+.checkout-page .product-image {
+    width: 50px;
+    height: 50px;
+    background-color: var(--light-gray);
+    margin-right: 15px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-page .product-name {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.checkout-page .product-qty {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.checkout-page .product-price {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.checkout-page .summary-details {
+    padding-top: 15px;
+}
+
+.checkout-page .summary-detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.checkout-page .divider {
+    border-top: 1px dashed #e0e0e0;
+    margin: 15px 0;
+}
+
+.checkout-page .total-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-text);
+}
+
+/* Modal Styles */
+.checkout-page .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.checkout-page .modal-content {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.checkout-page .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.checkout-page .success-icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-green);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.checkout-page .checkmark {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.checkout-page .thank-you {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.checkout-page .confirmation-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.checkout-page .receipt-summary {
+    background-color: var(--light-gray);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.checkout-page .receipt-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.checkout-page .continue-shopping-btn-modal {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
